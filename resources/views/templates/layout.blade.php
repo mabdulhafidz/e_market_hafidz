@@ -6,13 +6,15 @@
   <title>FidzMart</title>
 
   <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback" type="text/css">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="{{ asset('adminlte3') }}/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="{{ asset('adminlte3') }}/plugins/fontawesome-free/css/all.min.css" type="text/css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="{{ asset('adminlte3') }}/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="{{ asset('adminlte3') }}/dist/css/adminlte.min.css" type="text/css">
   {{-- Sweetalert style --}}
-  <link rel="stylesheet" href="{{asset('adminlte3')}}/plugins/sweetalert2/sweetalert2.min.css">
+  <link rel="stylesheet" href="{{asset('adminlte3')}}/plugins/sweetalert2/sweetalert2.min.css" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" type="text/css">
+
   </head>
   <body class="hold-transition sidebar-mini">
     <!-- Site wrapper -->
