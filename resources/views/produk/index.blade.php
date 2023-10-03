@@ -42,15 +42,21 @@
             @endforeach
           </ul>
         @endif
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalFormProduk">
+        <div class="mb-3">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalFormProduk">
             Tambah Produk
           </button>
           <a href="{{route('export_produk')}}" class="btn btn-success" target="_blank">
             Export XLS
           </a>
-          <a href="{{route('import_produk')}}" class="btn btn-success" data-toggle="modal" data-target="#modalProdukImport">
+          <a href="" class="btn btn-primary" target="_blank">
+            Export PDF
+          </a>
+          <a href="{{route('import_produk')}}" class="btn btn-secondary" data-toggle="modal" data-target="#modalProdukImport">
             Import 
           </a>
+        </div>
+        
           @include('produk.data')
           
       </div>

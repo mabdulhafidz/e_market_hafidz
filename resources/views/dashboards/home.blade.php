@@ -6,37 +6,77 @@
 
 @section('content')
     <section class="content">
+        <div class="row">
+            <div class="col-lg-3 col-6">
+                <div class="small-box bg-info">
+                    <div class="inner">
+                        <h3>150</h3>
+                        <p>New Orders</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
 
-    <!-- Default box -->
-    <div class="card">
-      <div class="card-header">
-        <h3 class="card-title">Home</h3>
-
-        <div class="card-tools">
-          <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-            <i class="fas fa-minus"></i>
-          </button>
-          <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
-            <i class="fas fa-times"></i>
-          </button>
+            <div class="col-lg-3 col-6">
+                <div class="small-box bg-success">
+                    <div class="inner">
+                        <h3>500</h3>
+                        <p>Total Sales</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="small-box bg-warning">
+                    <div class="inner">
+                        <h3>10</h3>
+                        <p>Pending Orders</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="small-box bg-danger">
+                    <div class="inner">
+                        <h3>5</h3>
+                        <p>Cancelled Orders</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="card-body">
-      Welcome Home!
-      </div>
-      <!-- /.card-body -->
-      <div class="card-footer">
-        Footer
-      </div>
-      <!-- /.card-footer-->
-    </div>
-    <!-- /.card -->
+        <!-- /.row -->
 
-  </section>
+        <!-- Content -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Latest Orders</h3>
+                    </div>
+                    <div class="card-body">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+    </section>
 @endsection
 
 @push('script')
     <script>
-       
+
     </script>
 @endpush

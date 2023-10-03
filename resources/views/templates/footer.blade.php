@@ -22,6 +22,8 @@
 <script src="{{ asset('adminlte3') }}/dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="{{ asset('adminlte3') }}/dist/js/demo.js"></script>
+{{-- cdnjs --}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <!--   Core JS Files   -->
 <script src="./assets/js/core/jquery.min.js"></script>
 <script src="./assets/js/core/popper.min.js"></script>
@@ -68,6 +70,7 @@
 {{-- DataTables --}}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
 
 @stack('script')
 </footer>

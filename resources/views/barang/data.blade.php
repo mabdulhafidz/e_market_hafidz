@@ -1,14 +1,14 @@
-<table class="table table-compact table-stripped" id="data-barang">
+<table class="table table-condensed table-striped" id="data-barang">
     <thead>
-        <tr class="text-center">
-            <th>#</th>
+        <tr class="text-center bg-dark">
+            <th>No.</th>
             <th>Kode Barang</th>
             <th>Nama Barang</th>
+            <th>Nama Produk</th>
             <th>Satuan</th>
             <th>Harga Jual</th>
             <th>Stok</th>
             <th>Ditarik</th>
-            <th>UserId</th>
             <th>UserName</th>
             <th>Tools</th>
         </tr>
@@ -24,7 +24,6 @@
             <td>{{ $b->harga_jual}}</td>
             <td>{{ $b->stok_barang}}</td>
             <td>{{ $b->ditarik}}</td>
-            <td>{{ $b->user_id}}</td>
             <td>{{ $b->user->name}}</td>
             <td>
                 <button class="btn btn-primary" data-toggle="modal" data-target="#formBarangModal"

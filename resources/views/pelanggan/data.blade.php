@@ -1,7 +1,7 @@
 
 <table id="tbl-pelanggan" class="table table-compact table-stripped">
     <thead>
-        <tr class="text-center">
+        <tr class="text-center bg-dark">
             <th>Id</th>
             <th>Nama Pelanggan</th>
             <th>Kode Pelanggan</th>
@@ -13,7 +13,7 @@
     </thead>
     <tbody>
         @foreach ($pelanggan as $p)    
-            <tr class="text-center">
+            <tr class="text-center bg-secondary">
                 <td>{{ $i = !isset($i)?$i=1:++$i }}</td>
                 <td>{{$p->nama_pelanggan}}</td>
                 <td>{{$p->kode_pelanggan}}</td>

@@ -1,7 +1,7 @@
 
 <table id="tbl-user" class="table table-compact table-stripped">
     <thead>
-        <tr>
+        <tr class="bg-dark">
             <th>Id</th>
             <th>Nama User</th>
             <th>Email</th>
@@ -13,7 +13,7 @@
     </thead>
     <tbody>
         @foreach ($users as $u)    
-            <tr>
+            <tr class="bg-secondary">
                 <td>{{ $i = !isset($i)?$i=1:++$i }}</td>
                 <td>{{$u->name}}</td>
                 <td>{{$u->email}}</td>

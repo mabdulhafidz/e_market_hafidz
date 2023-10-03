@@ -1,7 +1,7 @@
 
     <table id="tbl-produk" class="table table-compact table-stripped">
         <thead>
-            <tr>
+            <tr class="bg-dark">
                 <th>Id</th>
                 <th>Nama Produk</th>
                 <th>Created at</th>
@@ -11,7 +11,7 @@
         </thead>
         <tbody>
             @foreach ($produk as $p)    
-                <tr>
+                <tr class="bg-secondary">
                     <td>{{ $i = !isset($i)?$i=1:++$i }}</td>
                     <td>{{$p->nama_produk}}</td>
                     <td>{{$p->created_at}}</td>

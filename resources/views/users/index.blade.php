@@ -42,9 +42,21 @@
             @endforeach
           </ul>
         @endif
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalFormUser">
+        <div class="mb-3">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalFormUser">
             Tambah user
           </button>
+          <a href="" class="btn btn-success" target="_blank">
+            Export XLS
+          </a>
+          <a href="" class="btn btn-primary" target="_blank">
+            Export PDF
+          </a>
+          <a href="" class="btn btn-secondary" target="_blank">
+            Import 
+          </a>
+        </div>
+        
           @include('users.data')
           
       </div>

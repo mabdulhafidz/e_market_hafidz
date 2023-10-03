@@ -151,10 +151,10 @@
       <!-- Sidebar user (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-            <i class="nav-icon fas fa-user circle elevation-5 bg-white"></i> 
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSBIiX7syg4uf7SLCAbRHnC6Rupb9PqE2zEA&usqp=CAU" alt="profile">
         </div>
         <div class="info">
-          <a href="{{ url('/') }}" class="d-block">Hafidz</a>
+          <a href="{{ url('/') }}" class="d-block">M Abdul Hafidz</a>
         </div>
       </div>
 
