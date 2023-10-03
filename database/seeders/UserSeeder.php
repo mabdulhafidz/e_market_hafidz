@@ -38,9 +38,6 @@ class UserSeeder extends Seeder
                     'password' => bcrypt('a'),
                     'level' => '2'
                 ],
-
-
-                
             ];
 
             foreach ($user as $key => $value) {

@@ -4,7 +4,8 @@
         <tr>
             <th>Id</th>
             <th>Nama User</th>
-            <th>email</th>
+            <th>Email</th>
+            <th>Level</th>
             <th>Created at</th>
             <th>Updated at</th>
             <th>Isi</th>
