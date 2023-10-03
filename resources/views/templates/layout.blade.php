@@ -30,6 +30,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/dataTables.bootstrap.min.css">
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
 
+<link rel="stylesheet" href="https://emarket.jh-beon.cloud/public/adminlte3/plugins/fontawesome-free/css/all.min.css">
+
   </head>
   <body class="hold-transition sidebar-mini">
     <!-- Site wrapper -->
