@@ -13,7 +13,8 @@
   <link rel="stylesheet" href="{{ asset('adminlte3') }}/dist/css/adminlte.min.css" type="text/css">
   {{-- Sweetalert style --}}
   <link rel="stylesheet" href="{{asset('adminlte3')}}/plugins/sweetalert2/sweetalert2.min.css" type="text/css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" type="text/css">
+  {{-- adminlte3 --}}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.1/dist/css/adminlte.min.css">
 
   </head>
   <body class="hold-transition sidebar-mini">
