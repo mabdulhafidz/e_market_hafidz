@@ -47,7 +47,7 @@ Route::get('/download', [ProdukController::class, 'download']);
 
 Route::get('/export', [ProdukController::class, 'export']);
 
-Route::get('/import', [ProdukController::class, 'import']);
+Route::post('produk/import', [ProdukController::class, 'import'])->name('import_produk'); 
 
 
 

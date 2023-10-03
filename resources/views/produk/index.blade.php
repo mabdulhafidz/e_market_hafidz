@@ -48,6 +48,9 @@
           <a href="{{route('export_produk')}}" class="btn btn-success" target="_blank">
             Export XLS
           </a>
+          <a href="{{route('import_produk')}}" class="btn btn-success" data-toggle="modal" data-target="#modalProdukImport">
+            Import 
+          </a>
           @include('produk.data')
           
       </div>
